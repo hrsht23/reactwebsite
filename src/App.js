@@ -7,7 +7,7 @@ import Navbar from "./Navbar";
 import "./index.css";
 // import "./Home.css";
 
-import {Switch , Route}  from "react-router-dom";
+import {Switch , Route , Redirect}  from "react-router-dom";
 
 const App = () => {
  return (
@@ -20,6 +20,7 @@ const App = () => {
 
         <Route exact path="/players" component={Players} />
         <Route exact path="/contact" component={Contact} />
+        <Redirect to ="/" />
 
         </Switch>
     </>

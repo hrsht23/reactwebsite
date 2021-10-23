@@ -1,5 +1,7 @@
 {
   "name": "my-app",
+   "homepage": "https://hrsht23.github.io/reactwebsite/home",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {

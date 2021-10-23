@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  background-color: black;
+}
+.nav-href {
+  text-decoration: none !important;
+  color:white !important;
+  margin: 8px;
+}
+
+.nav-href:hover {
+
+  color:lightblue !important;
+  border-bottom: 1px solid white !important;
+}
+
+/* .active :hover {
+  border-bottom:solid white;
+  /* color:lightblue !important; */
+h1,.footer {
+color:lightblue !important;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+text-align: center;
+}
+
+.card-body {
+  color:lightblue !important;
+}
+
+.bordar {
+  border-style: ridge !important;
+  border-color:grey !important;
+}
+
+.hovered:hover {
+
+  border-style: outset !important;
+  border-color: lightblue !important;
+
+}
+
+.animate {
+
+  /* width: 100px;
+  height: 100px; */
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;  
+  animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  from {top: 200px;}
+  to {top: 0px; }
+}
+
+.homeanimate {
+  position: relative;
+  animation-name: example1;
+  animation-duration: 4s;
+  
+}
+
+@keyframes example1 {
+  0%   { left:200px; top:200px;}
+  25%  { left:0px; top:0px;}
+}
+
